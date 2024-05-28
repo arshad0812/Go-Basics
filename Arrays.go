@@ -33,10 +33,6 @@ func main(){
 
 	arr5:=make([]int,5);
 	fmt.Println(arr5);
-	
-		
-
-
 
 
 	

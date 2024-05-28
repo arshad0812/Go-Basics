@@ -29,7 +29,11 @@ func main() {
   d,e:=1.1,true;
   fmt.Println(d," ",e);
 
+
+  //Cant redeclare value
   const val int=1;
+  val=2;
+  
   print(val)
 
 }

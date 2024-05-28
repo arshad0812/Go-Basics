@@ -23,7 +23,9 @@ func main(){
 	Hmap4:=map[int]int{};
 	var Hmap5=map[int]int{};
 
-
-	fmt.Println(Hmap1,Hmap2,Hmap3,Hmap4,Hmap5);
+	hmap6:=make(map[int]int);
+	hmap6[0]=1
+	
+	fmt.Println(Hmap1,Hmap2,Hmap3,Hmap4,Hmap5,hmap6);
 
 }
